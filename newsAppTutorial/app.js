@@ -12,14 +12,16 @@ window.addEventListener('load', async e => {
         updateNews(e.target.value);
     });
 
-    if('serviceWorker' in Navigator) {
-        try {
-            navigator.serviceWorker.register('/newsAppTutorial/sw.js');
-            console.log(`SW registered`);
-        } catch(error) {
-            console.log(`SW failed`);
-        }
-    }
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/newsAppTutorial/sw.js', {scope: '/newsAppTutorial/'})
+        .then(function(reg) {
+          // registration worked
+          console.log('Registration succeeded. Scope is ' + reg.scope);
+        }).catch(function(error) {
+          // registration failed
+          console.log('Registration failed with ' + error);
+        });
+      }
 });
 
 async function updateSources() {

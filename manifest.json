@@ -1,0 +1,16 @@
+{
+    "name": "PWAAC",
+    "short_name": "PWAAC",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#2A3443",
+    "description": "An app made to keep up the administration of a small business while on phone",
+    "theme_color": "#2A3443",
+    "icons": [
+      {
+        "src": "./img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

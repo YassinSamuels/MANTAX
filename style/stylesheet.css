@@ -46,10 +46,6 @@ pre {
     line-height: 23px; 
 }
 
-.headerStyleTitle {
-    padding-top: 50px;
-}
-
 .headerStyleBody {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -118,6 +114,11 @@ pre {
 .MenuStyle, a:hover {
     text-decoration: none;
     color: #e31a5c;
+}
+
+img.logoImg {
+    height: 320px;
+    width: 320px;
 }
 
 /* voorpagina website knop ------------------------------------------------------------------------------------------------------------ */

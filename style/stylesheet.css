@@ -58,14 +58,22 @@ pre {
     margin: 0;
 }
 
+.backgroundImg {
+    background-image: url(/supportingfiles/images/background/backgroundMANTAX.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: fixed;
+}
+
 .headerStyle {
-    background-color: #ffffff;
+    background-color: transparent;
     text-align: center;
     height: 36px;
 }
 
 .MenuStyle {
-    background-color: #ffffff;
+    background-color: transparent;
     color: #dddddd;
     text-align: center;
     height: 50px;
@@ -150,31 +158,31 @@ button {
     -ms-transition:     0.08s ease-in;
     -moz-transition:    0.08s ease-in;
     -webkit-transition: 0.08s ease-in;
-  }
-  
-  .fade2:before{
+}
+
+.fade2:before{
     content:"→";
     position:absolute;
     color:#e31a5c;
     left: 88%;
     opacity: 0;
     -webkit-transition: all 0.2s ease-in;
-  }
-  
-  .fade2:hover:before{
+}
+
+.fade2:hover:before{
     left:91%;
     opacity:1;
-  }
-  
-  .fade2:hover {
+}
+
+.fade2:hover {
     border: 0px #fff solid;
     -webkit-transform: scale(1.04,1.04);
     -webkit-transition: border 0.3s ease-out;
     -webkit-transition: transform 250ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
-  }
+}
 
-/* voorpagina website knop ------------------------------------------------------------------------------------------------------------ */
-  .letter {
+/* gestapelde papieren effect voorpagina ------------------------------------------------------------------------------------------------------------ */
+.letter {
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin: 26px auto 0;
@@ -183,25 +191,50 @@ button {
     padding: 24px;
     position: relative;
     width: 80%;
-  }
-  .letter:before, .letter:after {
+}
+
+.letter:before, .letter:after {
     content: "";
     height: 98%;
     position: absolute;
     width: 100%;
     z-index: -1;
-  }
-  .letter:before {
+}
+
+.letter:before {
     background: #fafafa;
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
     left: -5px;
     top: 4px;
     transform: rotate(-2.5deg);
-  }
-  .letter:after {
+}
+
+.letter:after {
     background: #f6f6f6;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
     right: -3px;
     top: 1px;
     transform: rotate(1.4deg);
-  }
+}
+
+/* box rotate text voorpagina ------------------------------------------------------------------------------------------------------------ */
+.box_rotate {
+    float: right;
+    position: relative;
+    -moz-transform: rotate(90deg);  /* FF3.5+ */        
+    -o-transform: rotate(90deg);  /* Opera 10.5 */   
+    -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */    
+	margin-top: -140px;
+    margin-right: 10px;
+}
+
+.box_rotate p {
+    font-size: 17px; 
+    color: #e31a5c;
+}
+
+/* voorpagina vormen ------------------------------------------------------------------------------------------------------------ */
+
+
+
+

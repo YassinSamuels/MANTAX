@@ -12,8 +12,10 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="/supportingfiles/jsPDF-1.3.2/jspdf.js"></script>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.0/spectre-icons.css">
         <link rel="stylesheet" href="/style/create.css">
     </head>
 
@@ -33,9 +35,99 @@
                 <div class="letter">
                     <a href="index.html"><button class="fade2">Terug</button></a>
 
-                    <div class="col-sm-4 col-lg-12 contentAreaStyle">
-                        
+                    <div class="container">
+                        <div class="papers">
+                            <h2 class="text-right invoiceTitle">Invoice</h2>
 
+                            <form>
+                                <div class="columns">
+                                    <div class="column col-6">
+
+                                        <!--div class="form-group">
+                                            <label class="form-label"  for="logo">add logo</label>
+                                            <input type="file" class="form-input" id="logo" placeholder="add logo">
+                                        </div-->
+                                        <div class="form-group">
+                                            <textarea class="form-input" id="from" class="form-control" rows="2" cols="40" placeholder="Factuur van"></textarea>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea id="to" class="form-input" rows="2" cols="40" placeholder="Factuur naar"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="column col-6">
+                                        <div class="form-group">
+                                            <input type="text" id="invno" class="form-input" placeholder="Factuur Nummer">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="date" id="date" class="form-input" placeholder="Factuur datum">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-input" id="term" placeholder="Betalingsvoorwaarden">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="date" class="form-input" id="duedate" placeholder="Betalen in .. dagen">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div class="columns">
+                                <div class=column col-12>
+                                <br/>
+                                <table class="table">
+                                    <thead class="theadInvoice"><tr><th>Service</th><th align="right">Uren</th><th align="right">Prijs</th><th align="right">Bedrags</th></tr></thead>
+                                    <tbody>
+                                        <tr><td><div class="form-group">
+                                        <input type="text" id="invno" class="form-input" placeholder="Werkzaamheden">
+
+                                        </div></td><td align="right"><div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="1">
+
+                                        </div></td><td align="right"><div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+
+                                        </div></td><td align="right"><div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        </div></td></tr>
+                                    </tbody>
+
+                                    <tfoot>
+                                        <tr><td colspan="2">
+                                            
+                                        <button class="btn btn-sm buttonVoegToe">
+                                            <i class="icon icon-plus"></i>
+                                            Toevoegen
+                                        </button>
+
+                                        </td><td class="tdInvoice">Sub Totaal</td><td align="right">
+                                        <div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice">BTW 21%</td><td align="right">
+                                        
+                                        <div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="0">
+                                        </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td><td align="right">
+                                        
+                                        <div class="form-group">
+                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        </div></td></tr>
+                                    </tfoot>
+                                </table>
+                                
+                                Notities:
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

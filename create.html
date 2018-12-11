@@ -12,7 +12,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="/supportingfiles/jsPDF-1.3.2/jspdf.js"></script>
+        <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.0/spectre-icons.css">
@@ -35,7 +35,7 @@
                 <div class="letter">
                     <a href="index.html"><button class="fade2">Terug</button></a>
 
-                    <div class="container">
+                    <div class="container" id="invoiceMaker">
                         <div class="papers">
                             <h2 class="text-right invoiceTitle">Invoice</h2>
 
@@ -48,29 +48,29 @@
                                             <input type="file" class="form-input" id="logo" placeholder="add logo">
                                         </div-->
                                         <div class="form-group">
-                                            <textarea class="form-input" id="from" class="form-control" rows="2" cols="40" placeholder="Factuur van"></textarea>
+                                            <textarea class="form-input" id="from invoiceInputVan" class="form-control" rows="2" cols="40" placeholder="Factuur van"></textarea>
                                         </div>
 
                                         <div class="form-group">
-                                            <textarea id="to" class="form-input" rows="2" cols="40" placeholder="Factuur naar"></textarea>
+                                            <textarea id="to" class="form-input invoiceInputVoor" rows="2" cols="40" placeholder="Factuur naar"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="column col-6">
                                         <div class="form-group">
-                                            <input type="text" id="invno" class="form-input" placeholder="Factuur Nummer">
+                                            <input type="text" id="invno invoiceInputFactNo" class="form-input" placeholder="Factuur Nummer">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="date" id="date" class="form-input" placeholder="Factuur datum">
+                                            <input type="date" id="date invoiceInputFactDat" class="form-input" placeholder="Factuur datum">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="text" class="form-input" id="term" placeholder="Betalingsvoorwaarden">
+                                            <input type="text" class="form-input" id="term invoiceInputBetVoorw" placeholder="Betalingsvoorwaarden">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="date" class="form-input" id="duedate" placeholder="Betalen in .. dagen">
+                                            <input type="date" class="form-input" id="duedate invoiceInputBetDat" placeholder="Betalen in .. dagen">
                                         </div>
                                     </div>
                                 </div>
@@ -83,16 +83,16 @@
                                     <thead class="theadInvoice"><tr><th>Service</th><th align="right">Uren</th><th align="right">Prijs</th><th align="right">Bedrags</th></tr></thead>
                                     <tbody>
                                         <tr><td><div class="form-group">
-                                        <input type="text" id="invno" class="form-input" placeholder="Werkzaamheden">
+                                        <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="1">
+                                        <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
                                         </div></td></tr>
                                     </tbody>
 
@@ -106,15 +106,15 @@
 
                                         </td><td class="tdInvoice">Sub Totaal</td><td align="right">
                                         <div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
                                         </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice">BTW 21%</td><td align="right">
                                         
                                         <div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="0">
+                                        <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
                                         </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td><td align="right">
                                         
                                         <div class="form-group">
-                                        <input type="text" id="invno" class="form-input text-right" placeholder="500.000">
+                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
                                         </div></td></tr>
                                     </tfoot>
                                 </table>
@@ -125,6 +125,7 @@
                                 <br/>
                                 <br/>
                                 <br/>
+                                <button onclick="invoiceDataPassing()" class="fade3 buttonDoorgaan">Afronden</button>
                                 </div>
                             </div>
                         </div>
@@ -137,4 +138,51 @@
             </div>
         </div>
     </body>
+
+    <script>
+        function invoiceDataPassing() {
+            alert('hi');
+            let invoiceInputVan: String = document.getElementById('invoiceInputVan').value;
+            let invoiceInputVoor: String = document.getElementById('invoiceInputVoor').value;
+            let invoiceInputFactNo: String = document.getElementById('invoiceInputFactNo').value;
+            let invoiceInputFactDat: String = document.getElementById('invoiceInputFactDat').value;
+            let invoiceInputBetVoorw: String = document.getElementById('invoiceInputBetVoorw').value;
+            let invoiceInputBetDat: String = document.getElementById('invoiceInputBetDat').value;
+
+            let invoiceInputWerkzaamh: String = document.getElementById('invoiceInputWerkzaamh').value;
+            let invoiceInputUren: Float = document.getElementById('invoiceInputUren').value;
+            let invoiceInputPrijs: Float = document.getElementById('invoiceInputPrijs').value;
+            let invoiceInputBedrag: Float = document.getElementById('invoiceInputBedrag').value;
+            let invoiceInputSubSubTotaal: Float = document.getElementById('invoiceInputSubSubTotaal').value;
+            let invoiceInputSubtotaal: Float = document.getElementById('invoiceInputSubtotaal').value;
+            let invoiceInputBTW: Float = document.getElementById('usinvoiceInputBTWerInput').value;
+            let invoiceInputTotaal: Float = document.getElementById('invoiceInputTotaal').value;
+
+            console.log(invoiceInputVan.value);
+        }
+
+        
+
+
+
+        // var doc = new jsPDF();          
+        // var elementHandler = {
+        //     '#ignorePDF': function (element, renderer) {
+        //     return true;
+        //     }
+        // };
+
+        // var source = window.document.getElementsByTagName("body")[0];
+        
+        // doc.fromHTML(
+        //     source,
+        //     15,
+        //     15,
+        // {
+        //     'width': 180,'elementHandlers': elementHandler
+        // });
+
+        // doc.output("dataurlnewwindow");
+
+    </script>
 </html>

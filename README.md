@@ -21,8 +21,11 @@ Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Gelukki
 Jaarlijks heb ik de stijl van de factuur aangepast aan de trend van die tijd, zo ook in 2018. Ik vond het belangrijk dat een factuur professionaliteit moest uitstralen en een mooi strak design hebben, want dat straalt wat uit. Dat laat klanten prettiger kijken en gemakkelijker onthouden. 
 
 Standaard concept van een factuur
-```
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
+![alt text](https://github.com/YassinSamuels/MANTAX/blob/master/supportingfiles/images/app-images/images/icons/icon-144x144.png)
+
+```
+asdad
 ```
 
 ### Wat is het doel ervan

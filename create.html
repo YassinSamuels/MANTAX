@@ -83,16 +83,16 @@
                                     <thead class="theadInvoice"><tr><th>Service</th><th align="right">Uren</th><th align="right">Prijs</th><th align="right">Bedrags</th></tr></thead>
                                     <tbody>
                                         <tr><td><div class="form-group">
-                                        <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
+                                            <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
+                                            <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
+                                            <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
 
                                         </div></td><td align="right"><div class="form-group">
-                                        <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
+                                            <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
                                         </div></td></tr>
                                     </tbody>
 
@@ -106,15 +106,15 @@
 
                                         </td><td class="tdInvoice">Sub Totaal</td><td align="right">
                                         <div class="form-group">
-                                        <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
+                                            <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
                                         </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice">BTW 21%</td><td align="right">
                                         
                                         <div class="form-group">
-                                        <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
+                                            <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
                                         </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td><td align="right">
                                         
                                         <div class="form-group">
-                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
+                                            <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000" onchange="invoiceDataPassing()">
                                         </div></td></tr>
                                     </tfoot>
                                 </table>
@@ -141,8 +141,7 @@
 
     <script>
         function invoiceDataPassing() {
-            alert('hi');
-            let invoiceInputVan = document.getElementById('#invoiceInputVan').value;
+            let invoiceInputVan = document.getElementById('invoiceInputVan').value;
             let invoiceInputVoor = document.getElementById('invoiceInputVoor').value;
             let invoiceInputFactNo = document.getElementById('invoiceInputFactNo').value;
             let invoiceInputFactDat = document.getElementById('invoiceInputFactDat').value;
@@ -158,7 +157,10 @@
             let invoiceInputBTW = document.getElementById('usinvoiceInputBTWerInput').value;
             let invoiceInputTotaal = document.getElementById('invoiceInputTotaal').value;
 
-            console.log(invoiceInputVan.value);
+            var test123 =invoiceInputVan.value;
+            console.log(test123);
+            print('test123');
+            print("hi");
         }
 
         

@@ -20,7 +20,7 @@ Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Gelukki
 
 Standaard concept van een factuur
 ```
-![Invoice standaard](MANTAX/supportingfiles/images/app-images/images/icons/icon-144x144.png)
+![Invoice standaard](https://github.com/YassinSamuels/MANTAX/blob/master/supportingfiles/images/app-images/images/icons/icon-144x144.png)
 ```
 
 ### Wat is het doel ervan

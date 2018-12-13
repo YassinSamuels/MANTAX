@@ -78,54 +78,91 @@
 
                             <div class="columns">
                                 <div class=column col-12>
-                                <br/>
-                                <table class="table">
-                                    <thead class="theadInvoice"><tr><th>Service</th><th align="right">Uren</th><th align="right">Prijs</th><th align="right">Bedrags</th></tr></thead>
-                                    <tbody>
-                                        <tr><td><div class="form-group">
-                                            <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
+                                    <br/>
+                                    <table class="table">
+                                        <thead class="theadInvoice">
+                                            <tr>
+                                                <th>Service</th>
+                                                <th align="right">Uren</th>
+                                                <th align="right">Prijs</th>
+                                                <th align="right">Bedrags</th>
+                                            </tr>
+                                        </thead>
 
-                                        </div></td><td align="right"><div class="form-group">
-                                            <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
+                                                    </div>
+                                                </td>
+                                                
+                                                <td align="right">
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
+                                                    </div>
+                                                </td>
 
-                                        </div></td><td align="right"><div class="form-group">
-                                            <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
+                                                <td align="right">
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
+                                                    </div>
+                                                </td>
 
-                                        </div></td><td align="right"><div class="form-group">
-                                            <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
-                                        </div></td></tr>
-                                    </tbody>
+                                                <td align="right">
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
+                                                    </div> 
+                                                </td>
+                                            </tr>
+                                        </tbody>
 
-                                    <tfoot>
-                                        <tr><td colspan="2">
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="2">                                            
+                                                    <button class="btn btn-sm buttonVoegToe">
+                                                        <i class="icon icon-plus"></i>
+                                                        Toevoegen
+                                                    </button>
+                                                </td>
                                             
-                                        <button class="btn btn-sm buttonVoegToe">
-                                            <i class="icon icon-plus"></i>
-                                            Toevoegen
-                                        </button>
-
-                                        </td><td class="tdInvoice">Sub Totaal</td><td align="right">
-                                        <div class="form-group">
-                                            <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
-                                        </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice">BTW 21%</td><td align="right">
-                                        
-                                        <div class="form-group">
-                                            <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
-                                        </div></td></tr><tr><td colspan="2"></td><td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td><td align="right">
-                                        
-                                        <div class="form-group">
-                                            <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000" onchange="invoiceDataPassing()">
-                                        </div></td></tr>
-                                    </tfoot>
-                                </table>
-                                
-                                Notities:
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
-                                <button onclick="invoiceDataPassing()" class="fade3 buttonDoorgaan">Afronden</button>
+                                                <td class="tdInvoice">Sub Totaal</td>
+                                                <td align="right">  
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                    
+                                            <tr>
+                                                <td colspan="2"></td>
+                                                <td class="tdInvoice">BTW 21%</td>
+                                                <td align="right">
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td colspan="2"></td>
+                                                <td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td>
+                                                <td align="right">
+                                                    <div class="form-group">
+                                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000" onchange="invoiceDataPassing()">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                    
+                                    Notities:
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    <button onclick="" id="buttonAfronden" class="fade3 buttonDoorgaan">Afronden</button>
                                 </div>
                             </div>
                         </div>
@@ -140,28 +177,38 @@
     </body>
 
     <script>
-        function invoiceDataPassing() {
-            let invoiceInputVan = document.getElementById('invoiceInputVan').value;
-            let invoiceInputVoor = document.getElementById('invoiceInputVoor').value;
-            let invoiceInputFactNo = document.getElementById('invoiceInputFactNo').value;
-            let invoiceInputFactDat = document.getElementById('invoiceInputFactDat').value;
-            let invoiceInputBetVoorw = document.getElementById('invoiceInputBetVoorw').value;
-            let invoiceInputBetDat = document.getElementById('invoiceInputBetDat').value;
+        $('#buttonAfronden').click(function() {
+            let document = new jsPDF();
 
-            let invoiceInputWerkzaamh = document.getElementById('invoiceInputWerkzaamh').value;
-            let invoiceInputUren = document.getElementById('invoiceInputUren').value;
-            let invoiceInputPrijs = document.getElementById('invoiceInputPrijs').value;
-            let invoiceInputBedrag = document.getElementById('invoiceInputBedrag').value;
-            let invoiceInputSubSubTotaal = document.getElementById('invoiceInputSubSubTotaal').value;
-            let invoiceInputSubtotaal = document.getElementById('invoiceInputSubtotaal').value;
-            let invoiceInputBTW = document.getElementById('usinvoiceInputBTWerInput').value;
-            let invoiceInputTotaal = document.getElementById('invoiceInputTotaal').value;
 
-            var test123 =invoiceInputVan.value;
-            console.log(test123);
-            print('test123');
-            print("hi");
-        }
+            let invoiceInputVan = $('#invoiceInputVan').val();
+            let invoiceInputVoor = $('#invoiceInputVoor').val();
+            let invoiceInputFactNo = $('#invoiceInputFactNo').val();
+            let invoiceInputFactDat = $('#invoiceInputFactDat').val();
+            let invoiceInputBetVoorw = $('#invoiceInputBetVoorw').val();
+            let invoiceInputBetDat = $('#invoiceInputBetDat').val();
+
+            let invoiceInputWerkzaamh = $('#invoiceInputWerkzaamh').val();
+            let invoiceInputUren = $('#invoiceInputUren').val();
+            let invoiceInputPrijs = $('#invoiceInputPrijs').val();
+            let invoiceInputBedrag = $('#invoiceInputBedrag').val();
+            let invoiceInputSubSubTotaal = $('#invoiceInputSubSubTotaal').val();
+            let invoiceInputSubtotaal = $('#invoiceInputSubtotaal').val();
+            let invoiceInputBTW = $('#invoiceInputBTW').val();
+            let invoiceInputTotaal = $('#invoiceInputTotaal').val();
+
+            doc.text(40, 27, invoiceInputVan);
+            doc.text(40, 32, invoiceInputVoor);
+            doc.text(40, 42, invoiceInputFactNo);
+            doc.text(40, 47, vainvoiceInputFactDatn);
+            doc.text(40, 52, invoiceInputBetVoorw);
+            doc.text(40, 57, invoiceInputBetDat);
+            doc.text(40, 62, invoiceInputWerkzaamh);
+            doc.text(40, 67, invoiceInputUren);
+            doc.text(40, 72, invoiceInputPrijs);
+            doc.text(40, 77, invoiceInputBedrag);
+
+        });
 
         
 

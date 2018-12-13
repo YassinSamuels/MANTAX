@@ -16,17 +16,18 @@ Give examples
 
 ### Waarom deze app
 
-Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Gelukkig heeft mijn app wel een doel. Ik maak voor mijn broer al een jaar of 4 handmatig facturen voor zijn bedrijf. Al deze jaren heb ik er zelf voor gekozen om dit handmatig te doen. De reden hiervoor was dat ik macht had over de design van de factuur, offertes, etc. 
+Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Gelukkig heeft mijn app wel een doel. Ik maak voor mijn broer al een jaar of 4 handmatig facturen voor zijn bedrijf. Al deze jaren heb ik er zelf vsoor gekozen om dit handmatig te doen. De reden hiervoor was dat ik macht had over de design van de factuur, offertes, etc. 
 
 Jaarlijks heb ik de stijl van de factuur aangepast aan de trend van die tijd, zo ook in 2018. Ik vond het belangrijk dat een factuur professionaliteit moest uitstralen en een mooi strak design hebben, want dat straalt wat uit. Dat laat klanten prettiger kijken en gemakkelijker onthouden. 
 
 Standaard concept van een factuur
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
-![alt text](https://github.com/YassinSamuels/MANTAX/blob/master/supportingfiles/images/app-images/images/icons/icon-144x144.png)
+Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
 
-```
-asdad
-```
+Persoonlijke touch concept van een factuur
+![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
+Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
+
 
 ### Wat is het doel ervan
 

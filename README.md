@@ -22,12 +22,15 @@ Jaarlijks heb ik de stijl van de factuur aangepast aan de trend van die tijd, zo
 
 Standaard concept van een factuur
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
+```
 Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
+```
 
 Persoonlijke touch concept van een factuur
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
+```
 Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
-
+```
 
 ### Wat is het doel ervan
 

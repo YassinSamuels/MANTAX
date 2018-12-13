@@ -149,7 +149,7 @@
                                                 <td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td>
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000" onchange="invoiceDataPassing()">
+                                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -162,7 +162,7 @@
                                     <br/>
                                     <br/>
                                     <br/>
-                                    <button onclick="" id="buttonAfronden" class="fade3 buttonDoorgaan">Afronden</button>
+                                    <button onclick="buttonAfronden()" id="buttonAfronden" class="fade3 buttonDoorgaan">Afronden</button>
                                 </div>
                             </div>
                         </div>
@@ -177,9 +177,8 @@
     </body>
 
     <script>
-        $('#buttonAfronden').click(function() {
+        function buttonAfronden() {
             let document = new jsPDF();
-
 
             let invoiceInputVan = $('#invoiceInputVan').val();
             let invoiceInputVoor = $('#invoiceInputVoor').val();
@@ -197,18 +196,29 @@
             let invoiceInputBTW = $('#invoiceInputBTW').val();
             let invoiceInputTotaal = $('#invoiceInputTotaal').val();
 
-            doc.text(40, 27, invoiceInputVan);
-            doc.text(40, 32, invoiceInputVoor);
-            doc.text(40, 42, invoiceInputFactNo);
-            doc.text(40, 47, vainvoiceInputFactDatn);
-            doc.text(40, 52, invoiceInputBetVoorw);
-            doc.text(40, 57, invoiceInputBetDat);
-            doc.text(40, 62, invoiceInputWerkzaamh);
-            doc.text(40, 67, invoiceInputUren);
-            doc.text(40, 72, invoiceInputPrijs);
-            doc.text(40, 77, invoiceInputBedrag);
+            document.text(40, 32, invoiceInputVoor);
+            document.text(40, 27, invoiceInputVan);
+            document.text(40, 42, invoiceInputFactNo);
+            document.text(40, 47, vainvoiceInputFactDatn);
+            document.text(40, 52, invoiceInputBetVoorw);
+            document.text(40, 57, invoiceInputBetDat);
+            document.text(40, 62, invoiceInputWerkzaamh);
+            document.text(40, 67, invoiceInputUren);
+            document.text(40, 72, invoiceInputPrijs);
+            document.text(40, 77, invoiceInputBedrag);
 
-        });
+            document.save('Document_by_MANTAX')
+        }
+
+        // var urenCalc= $('#invoiceInputUren').val();
+        // var prijsCalc = $('#invoiceInputPrijs').val();
+        // var bedragCalc = $('#invoiceInputBedrag').val();
+
+        // if urenCalc && prijsCalc == null {
+            
+        // }if else {
+        //     bedragCalc = (urenCalc * prijsCalc);
+        // }
 
         
 

@@ -23,13 +23,15 @@ Jaarlijks heb ik de stijl van de factuur aangepast aan de trend van die tijd, zo
 Standaard concept van een factuur
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
 ```
-Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
+Zoals hierboven te zien is, is het dood simpel. 
+Design hiervan past niet in deze tijd en het komt te druk over.
 ```
 
 Persoonlijke touch concept van een factuur
 ![Invoice Standaard](/supportingfiles/images/githubSC/basicUglyInvoice.jpg "Invoice Standaard")
 ```
-Zoals hierboven te zien is, is het dood simpel. Design hiervan past niet in deze tijd en het komt te druk over.
+Zoals hierboven te zien is, is het dood simpel. 
+Design hiervan past niet in deze tijd en het komt te druk over.
 ```
 
 ### Wat is het doel ervan
@@ -69,6 +71,8 @@ End with an example of getting some data out of the system or using it for a lit
 ## Running the tests
 
 Explain how to run the automated tests for this system
+Codegebruik validatie
+optimzer
 
 ### Break down into end to end tests
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
+
 /* tekst stijl gehele website ------------------------------------------------------------------------------------------------------------ */
 h1 { 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
@@ -105,7 +106,7 @@ pre {
     color: darkgray;
 }
 
-.is-active {
+.is-active, .notitiesFactuur {
     text-decoration: none;
     color: #e31a5c;
 }

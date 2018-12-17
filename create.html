@@ -20,7 +20,7 @@
     </head>
 
     <body>
-        <div class="container-fluid paddingmarginZero">
+        <div class="container-fluid paddingmarginZero" id="helePagina">
             <div class="backgroundImg">
                 <div class="headerStyle"></div>
 
@@ -37,7 +37,7 @@
 
                     <div class="container" id="invoiceMaker">
                         <div class="papers">
-                            <h2 class="text-right invoiceTitle">Invoice</h2>
+                            <h2 class="text-right invoiceTitle">Factuur</h2>
 
                             <form>
                                 <div class="columns">
@@ -48,29 +48,30 @@
                                             <input type="file" class="form-input" id="logo" placeholder="add logo">
                                         </div-->
                                         <div class="form-group">
-                                            <textarea class="form-input" id="from invoiceInputVan" class="form-control" rows="2" cols="40" placeholder="Factuur van"></textarea>
+                                            <!-- expres twee aparte class aangemaakt anders werkte het niet? -->
+                                            <textarea class="form-input" id="invoiceInputVan" class="form-control" rows="2" cols="40" placeholder="Factuur van"></textarea>
                                         </div>
 
                                         <div class="form-group">
-                                            <textarea id="to" class="form-input invoiceInputVoor" rows="2" cols="40" placeholder="Factuur naar"></textarea>
+                                            <textarea class="form-input invoiceInputVoor" id="invoiceInputVoor" rows="2" cols="40" placeholder="Factuur naar"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="column col-6">
                                         <div class="form-group">
-                                            <input type="text" id="invno invoiceInputFactNo" class="form-input" placeholder="Factuur Nummer">
+                                            <input type="text" class="form-input" id="invoiceInputFactNo" placeholder="Factuur Nummer">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="date" id="date invoiceInputFactDat" class="form-input" placeholder="Factuur datum">
+                                            <input type="date" class="form-input" id="invoiceInputFactDat" placeholder="Factuur datum">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="text" class="form-input" id="term invoiceInputBetVoorw" placeholder="Betalingsvoorwaarden">
+                                            <input type="text" class="form-input" id="invoiceInputBetVoorw" placeholder="Betalingsvoorwaarden">
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="date" class="form-input" id="duedate invoiceInputBetDat" placeholder="Betalen in .. dagen">
+                                            <input type="date" class="form-input" id="invoiceInputBetDat" placeholder="Betalen in .. dagen">
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +86,7 @@
                                                 <th>Service</th>
                                                 <th align="right">Uren</th>
                                                 <th align="right">Prijs</th>
-                                                <th align="right">Bedrags</th>
+                                                <th align="right">Bedrag</th>
                                             </tr>
                                         </thead>
 
@@ -93,25 +94,25 @@
                                             <tr>
                                                 <td>
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden">
+                                                        <input type="text" id="invoiceInputWerkzaamh" class="form-input" placeholder="Werkzaamheden" size="32">
                                                     </div>
                                                 </td>
                                                 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputUren" class="form-input text-right" placeholder="1">
+                                                        <input type="number" id="invoiceInputUren" class="form-input text-right" placeholder="1" size="5">
                                                     </div>
                                                 </td>
 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputPrijs" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputPrijs" class="form-input text-right" placeholder="500.000" size="10">
                                                     </div>
                                                 </td>
 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputSubSubTotaal" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputPrijsTotaalBedrag" class="form-input text-right" placeholder="500.000" size="10">
                                                     </div> 
                                                 </td>
                                             </tr>
@@ -129,7 +130,7 @@
                                                 <td class="tdInvoice">Sub Totaal</td>
                                                 <td align="right">  
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -139,7 +140,7 @@
                                                 <td class="tdInvoice">BTW 21%</td>
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputBTW" class="form-input text-right" placeholder="0">
+                                                        <input type="number" id="invoiceInputBTW" class="form-input text-right" placeholder="0">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -149,14 +150,14 @@
                                                 <td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td>
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="text" id="invno invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
                                                     </div>
                                                 </td>
                                             </tr>
                                         </tfoot>
                                     </table>
                                     
-                                    Notities:
+                                    <div class="notitiesFactuur">Notities:</div>
                                     <br/>
                                     <br/>
                                     <br/>
@@ -170,78 +171,30 @@
                 </div>
 
                 <div class="box_rotate">
-                    <p class="box_rotate_text">Y.Samuels@icloud.com</p>
+                    <p class="box_rotate_text">»» Y.Samuels@icloud.com</p>
                 </div>
             </div>
         </div>
     </body>
-
-    <script>
-        function buttonAfronden() {
-            let document = new jsPDF();
-
-            let invoiceInputVan = $('#invoiceInputVan').val();
-            let invoiceInputVoor = $('#invoiceInputVoor').val();
-            let invoiceInputFactNo = $('#invoiceInputFactNo').val();
-            let invoiceInputFactDat = $('#invoiceInputFactDat').val();
-            let invoiceInputBetVoorw = $('#invoiceInputBetVoorw').val();
-            let invoiceInputBetDat = $('#invoiceInputBetDat').val();
-
-            let invoiceInputWerkzaamh = $('#invoiceInputWerkzaamh').val();
-            let invoiceInputUren = $('#invoiceInputUren').val();
-            let invoiceInputPrijs = $('#invoiceInputPrijs').val();
-            let invoiceInputBedrag = $('#invoiceInputBedrag').val();
-            let invoiceInputSubSubTotaal = $('#invoiceInputSubSubTotaal').val();
-            let invoiceInputSubtotaal = $('#invoiceInputSubtotaal').val();
-            let invoiceInputBTW = $('#invoiceInputBTW').val();
-            let invoiceInputTotaal = $('#invoiceInputTotaal').val();
-
-            document.text(40, 32, invoiceInputVoor);
-            document.text(40, 27, invoiceInputVan);
-            document.text(40, 42, invoiceInputFactNo);
-            document.text(40, 47, vainvoiceInputFactDatn);
-            document.text(40, 52, invoiceInputBetVoorw);
-            document.text(40, 57, invoiceInputBetDat);
-            document.text(40, 62, invoiceInputWerkzaamh);
-            document.text(40, 67, invoiceInputUren);
-            document.text(40, 72, invoiceInputPrijs);
-            document.text(40, 77, invoiceInputBedrag);
-
-            document.save('Document_by_MANTAX')
-        }
-
-        // var urenCalc= $('#invoiceInputUren').val();
-        // var prijsCalc = $('#invoiceInputPrijs').val();
-        // var bedragCalc = $('#invoiceInputBedrag').val();
-
-        // if urenCalc && prijsCalc == null {
+    
+    <script src="js/imgData.js"></script>
+    <script src="js/buttonAfronden.js"></script>
+    <!-- <script>
+        $(document).ready(function (){
+            $('#buttonAfronden').click(function () {
+            // var specialElementHandlers = 
+            //     function (element,renderer) {
+            //     return true;
+            // }
             
-        // }if else {
-        //     bedragCalc = (urenCalc * prijsCalc);
-        // }
-
-        
-
-
-
-        // var doc = new jsPDF();          
-        // var elementHandler = {
-        //     '#ignorePDF': function (element, renderer) {
-        //     return true;
-        //     }
-        // };
-
-        // var source = window.document.getElementsByTagName("body")[0];
-        
-        // doc.fromHTML(
-        //     source,
-        //     15,
-        //     15,
-        // {
-        //     'width': 180,'elementHandlers': elementHandler
-        // });
-
-        // doc.output("dataurlnewwindow");
-
-    </script>
+            var doc = new jsPDF();
+            doc.fromHTML($('#helePagina').html(), 10, 10, {
+            'width': 170,
+            //'elementHandlers': specialElementHandlers
+            });
+            
+            doc.output('datauri'); 
+            });
+        });
+    </script> -->
 </html>

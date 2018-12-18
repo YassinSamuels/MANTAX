@@ -71,7 +71,7 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <input type="date" class="form-input" id="invoiceInputBetDat" placeholder="Betalen in .. dagen">
+                                            <input type="number" class="form-input" id="invoiceInputBetDat" placeholder="Betalen in .. dagen" min="0">
                                         </div>
                                     </div>
                                 </div>
@@ -100,19 +100,19 @@
                                                 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputUren" class="form-input text-right" placeholder="1" size="5">
+                                                        <input type="number" id="invoiceInputUren" class="form-input text-right" placeholder="1" size="5" min="0">
                                                     </div>
                                                 </td>
 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputPrijs" class="form-input text-right" placeholder="500.000" size="10">
+                                                        <input type="number" id="invoiceInputPrijs" class="form-input text-right" placeholder="500.000" size="10" min="0">
                                                     </div>
                                                 </td>
 
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputPrijsTotaalBedrag" class="form-input text-right" placeholder="500.000" size="10">
+                                                        <input type="number" id="invoiceInputPrijsTotaalBedrag" class="form-input text-right" placeholder="500.000" size="10" min="0">
                                                     </div> 
                                                 </td>
                                             </tr>
@@ -130,7 +130,7 @@
                                                 <td class="tdInvoice">Sub Totaal</td>
                                                 <td align="right">  
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputSubtotaal" class="form-input text-right" placeholder="500.000" min="0">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -140,7 +140,7 @@
                                                 <td class="tdInvoice">BTW 21%</td>
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputBTW" class="form-input text-right" placeholder="0">
+                                                        <input type="number" id="invoiceInputBTW" class="form-input text-right" placeholder="0" min="0">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -150,7 +150,7 @@
                                                 <td class="tdInvoice" style="font-weight: bold;">Totaal bedrag</td>
                                                 <td align="right">
                                                     <div class="form-group">
-                                                        <input type="number" id="invoiceInputTotaal" class="form-input text-right" placeholder="500.000">
+                                                        <input type="number" id="invoiceInputTotaal" class="form-input text-right" placeholder="500.000" min="0">
                                                     </div>
                                                 </td>
                                             </tr>
@@ -160,7 +160,7 @@
                                     <div class="notitiesFactuur">Notities:</div>
                                     <br/>
                                     <br/>
-                                    <br/>
+                                    <br/> <!-- atribute 'required' bij <input > om het verplicht te maken -->
                                     <br/>
                                     <br/>
                                     <button onclick="buttonAfronden()" id="buttonAfronden" class="fade3 buttonDoorgaan">Afronden</button>
@@ -179,22 +179,4 @@
     
     <script src="js/imgData.js"></script>
     <script src="js/buttonAfronden.js"></script>
-    <!-- <script>
-        $(document).ready(function (){
-            $('#buttonAfronden').click(function () {
-            // var specialElementHandlers = 
-            //     function (element,renderer) {
-            //     return true;
-            // }
-            
-            var doc = new jsPDF();
-            doc.fromHTML($('#helePagina').html(), 10, 10, {
-            'width': 170,
-            //'elementHandlers': specialElementHandlers
-            });
-            
-            doc.output('datauri'); 
-            });
-        });
-    </script> -->
 </html>

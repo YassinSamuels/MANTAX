@@ -66,7 +66,7 @@ Nog in te vullen.
 * [Bootstrap4](http://getbootstrap.com/docs/4.1/getting-started/introduction/) - Framework dat gebruikt is voor responsiveness
 * [jsPDF](https://parall.ax/products/jspdf) - Framework dat PDFs genereert
 
-## Versioning
+## Versiebeheer
 
 Ik heb de regels van [SemVer](http://semver.org/) aangehouden met het nummeren van versie nummers. Om deze versie iteraties te zien, bekijk de [tags van mijn repository](https://github.com/YassinSamuels/MANTAX/tags). Versiebeheer zal starten vanaf versie 1.0.0 zodra het ingeleverd wordt.
 

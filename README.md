@@ -47,7 +47,7 @@ Allerlei documenten maken, voorlopig alleen facturen, in een mooi omgeving waarb
 
 ### Hoe ben ik hierop gekomen
 
-Ik doe al sinds 2011, sinds ik interesse toonde aan de technologie, de facturen van mijn broer zijn bedrijf. Het begon vrij rustig van maandelijkse facturen naar drukke weken met wekelijkse facturen. Natuurlijk is dit minuten werk voor mij, maar hier kwam behoorlijk veel tijd in zitten. Ik wou het al jaren lang automatiseren voor hem, maar hoe..
+Ik doe al sinds 2011, sinds ik interesse toonde in technologie, de facturen van mijn broer zijn bedrijf. Het begon vrij rustig van maandelijkse facturen naar drukke weken met wekelijkse facturen. Natuurlijk is dit minuten werk voor mij, maar hier kwam behoorlijk veel tijd in zitten. Ik wou het al jaren lang automatiseren voor hem, maar hoe..
 Voor dit miniscule probleem heb ik een oplossing geprobeerd te vinden tijdens mijn vrije projectsweken. 
 
 In het begin wou ik een telefoon- of MacOS app maken in Swift. Dit is de programmeer taal van Apple. Na +5/6 weken dagelijks een premium videotutorial gevolgd te hebben, kwam ik er achter dat ik in tijdnood zat en nog steeds geen product kon opleveren. Hierdoor was ik geneigd om het te versimpelen. Ik koos voor een website met eventueel een Progressive Web App shell als er tijd over was. 
@@ -61,7 +61,7 @@ Open de website, selecteer bovenaan welke document je wilt maken en maak het!
 
 ### The User Experience
 
-Vlak nadat ik mijn idee had, was ik direct gaan kijken naar hoe het dan zat met User Experience. Ik heb veel UX docenten erover gesproken en gepraat met anderen die UX gedeelte van hun voorlopige cijfers hoog hadden. Met dit in achterhoofd ben ik op de site van [CMDMethods](www.cmdmethods.com) gaan kijken welke testen ook echt passen bij mijn project. 
+Vlak nadat ik mijn idee had, was ik direct gaan kijken naar hoe het dan zat met User Experience. Ik heb veel UX docenten erover gesproken en gepraat met anderen die UX gedeelte van hun voorlopige cijfers hoog hadden. Met dit in achterhoofd ben ik op de site van [CMDMethods](http://cmdmethods.nl) gaan kijken welke testen ook echt passen bij mijn project. 
 Het zou dom geweest zijn om willekeurige testen uit te werken die geen toegevoegde waarden bieden aan mijn onderzoeken. Ik heb alle testen good door gelezen en daaruit een aantal uitgekozen en verwerkt. Dit is te lezen in mijn documentatie over UX via de link hieronder.
 
 * [User Experience document](supportingfiles/documenten/documentatie-ux.pdf) - Document met al mijn UX testen en beschrijvingen

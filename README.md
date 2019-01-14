@@ -2,6 +2,9 @@
 
 Een app om documenten te creëren in een WebApp en deze vervolgens te exporteren naar PDFs zonder watermarks of reclame.
 
+[MANTAX](http://i360246.hera.fhict.nl/mantax/AdministrationControl/) - Bezoek de website! **!!** Problemen met de CSS op de HERA server van Fontys
+[MANTAX Lokale link](http://192.168.0.108:5000) - Als bovenstaande link nog niet gemaakt is, zet ik een lokale link aan uren van te voren voor de presentatie
+
 ## Introductie
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -73,7 +76,9 @@ De motivatie ervan stort ik vervolgens in mijn documentatie en zo kan ik uren la
 
 * [Strategie & Concept document](supportingfiles/documenten/documentatie-sco.pdf) - Document met al mijn SCO concepten en documentatie
 
+### Format Self Assessment S3 v2
 
+* [Self assesment document](supportingfiles/documenten/FormatselfassessmentS3.pdf) - Zelf ingevulde assessment document format
 
 ## Gemaakt met
 

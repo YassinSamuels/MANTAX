@@ -61,7 +61,7 @@ Open de website, selecteer bovenaan welke document je wilt maken en maak het!
 
 ### The User Experience
 
-Vlak nadat ik mijn idee had, was ik direct gaan kijken naar hoe het dan zat met User Experience. Ik heb veel UX docenten erover gesproken en gepraat met anderen die UX gedeelte van hun voorlopige cijfers hoog hadden. Met dit in achterhoofd ben ik op de site van * [CMDMethods](http://cmdmethods.nl) gaan kijken welke testen ook echt passen bij mijn project. 
+Vlak nadat ik mijn idee had, was ik direct gaan kijken naar hoe het dan zat met User Experience. Ik heb veel UX docenten erover gesproken en gepraat met anderen die UX gedeelte van hun voorlopige cijfers hoog hadden. Met dit in achterhoofd ben ik op de site van [CMDMethods](http://cmdmethods.nl) gaan kijken welke testen ook echt passen bij mijn project. 
 Het zou dom geweest zijn om willekeurige testen uit te werken die geen toegevoegde waarden bieden aan mijn onderzoeken. Ik heb alle testen good door gelezen en daaruit een aantal uitgekozen en verwerkt. Dit is te lezen in mijn documentatie over UX via de link hieronder.
 
 * [User Experience document](supportingfiles/documenten/documentatie-ux.pdf) - Document met al mijn UX testen en beschrijvingen

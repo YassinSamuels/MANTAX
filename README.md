@@ -111,6 +111,7 @@ Dit project heeft geen licentie. Ik heb er expres niet voor gekozen om de MIT li
 
 ## Met dank aan
 
+* Udemy - Premium videotutorials over Swift van A tot Z
 * Codepen - Voor kleine bruikbare snippets
 * Youtube - Voor uitleg over PWA
 * W3-Schools - Voor documentatie over HTML5, CSS3 en JS

@@ -4,7 +4,7 @@ Een app om documenten te creëren in een WebApp en deze vervolgens te exporteren
 
 * [MANTAX](http://i360246.hera.fhict.nl/mantax/AdministrationControl/) - Bezoek de website! **!! Problemen met de CSS op de HERA server van Fontys**
 
-* [MANTAX Lokale link](http://192.168.0.108:5000) - **Als bovenstaande link nog niet gemaakt is, zet ik een lokale link aan uren van te voren voor de presentatie**
+* [MANTAX Lokale link](http://145.93.133.2:5000) - **Als bovenstaande link nog niet gemaakt is, zet ik een lokale link aan uren van te voren voor de presentatie**
 
 ## Introductie
 

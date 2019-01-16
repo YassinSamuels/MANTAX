@@ -56,6 +56,6 @@ function buttonAfronden() {
     // document.setFontType("regular");
 
     // Printer popup tonen om direct te printen
-    //print(width, height);
+    print(width, height);
     document.save('Document_by_MANTAX')
 }

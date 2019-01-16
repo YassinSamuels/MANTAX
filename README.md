@@ -18,6 +18,7 @@ Het project gaat om een online tool waarbij je facturen simpel kunt genereren. O
 
 * [User Experience](https://github.com/YassinSamuels/MANTAX#the-user-experience) - Snel naar mijn UX gedeelte
 * [Strategie & Concept](https://github.com/YassinSamuels/MANTAX#strategie--concept) - Snel naar mijn SCO gedeelte
+* [Design & Development](https://github.com/YassinSamuels/MANTAX#strategie--concept) - Snel naar mijn DED gedeelte
 * [Self Assessment](https://github.com/YassinSamuels/MANTAX#format-self-assessment-s3-v2) - Snel naar mijn self assessment
 
 ### Vereisten
@@ -78,7 +79,9 @@ Open de website, selecteer bovenaan welke document je wilt maken en maak het!
 Vlak nadat ik mijn idee had, was ik direct gaan kijken naar hoe het dan zat met User Experience. Ik heb veel UX docenten erover gesproken en gepraat met anderen die UX gedeelte van hun voorlopige cijfers hoog hadden. Met dit in achterhoofd ben ik op de site van [CMDMethods](http://cmdmethods.nl) gaan kijken welke testen ook echt passen bij mijn project. 
 Het zou dom geweest zijn om willekeurige testen uit te werken die geen toegevoegde waarden bieden aan mijn onderzoeken. Ik heb alle testen good door gelezen en daaruit een aantal uitgekozen en verwerkt. Dit is te lezen in mijn documentatie over UX via de link hieronder.
 
-* [User Experience document](supportingfiles/documenten/documentatie-ux.pdf) - Document met al mijn UX testen en beschrijvingen
+* [Competitive analyse](supportingfiles/documenten/ux/Competitiveanalyse.pdf) - Document waarin concurrentie vergeleken wordt met Mantax
+* [Trend analyse](supportingfiles/documenten/ux/Trendanalysis.pdf) - Document waar testgebruikers een aantal websites gaan vergelijken en kijken naar design trends
+* [Survey onderzoek](supportingfiles/documenten/ux/Surveyonderzoek.pdf) - Document met resultaten van mijn enquete onderzoek dat ging over een factuur maken in Mantax
 
 ### Strategie & Concept
 
@@ -86,6 +89,15 @@ Design staat erg hoog aan mijn prioriteitenlijst. Ik heb van mijzelf gemerkt dat
 De motivatie ervan stort ik vervolgens in mijn documentatie en zo kan ik uren lang achter elkaar doorwerken met een goed gevoel. Dit zal dan ook terug te zien zijn, hopelijk, in mijn documentatie van SCO.
 
 * [Strategie & Concept document](supportingfiles/documenten/documentatie-sco.pdf) - Document met al mijn SCO concepten en documentatie
+* [Strategie & Concept document](supportingfiles/documenten/documentatie-sco.pdf) - Document met al mijn SCO concepten en documentatie
+* [Strategie & Concept document](supportingfiles/documenten/documentatie-sco.pdf) - Document met al mijn SCO concepten en documentatie
+
+### Design & Development
+
+Design staat erg hoog aan mijn prioriteitenlijst. Ik heb van mijzelf gemerkt dat ik zeer gedreven en gemotiveerd wordt/ben als het project/document er naar mijn smaak goed uit ziet. 
+De motivatie ervan stort ik vervolgens in mijn documentatie en zo kan ik uren lang achter elkaar doorwerken met een goed gevoel. Dit zal dan ook terug te zien zijn, hopelijk, in mijn documentatie van SCO.
+
+* [Design & Development document](supportingfiles/documenten/documentatie-sco.pdf) - Document met al mijn SCO concepten en documentatie
 
 ### Format Self Assessment S3 v2
 

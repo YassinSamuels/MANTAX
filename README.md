@@ -4,11 +4,21 @@ Een app om documenten te creëren in een WebApp en deze vervolgens te exporteren
 
 * [MANTAX](http://i360246.hera.fhict.nl/mantax/AdministrationControl/) - Bezoek de website! **!! Problemen met de CSS op de HERA server van Fontys**
 
-* [MANTAX Lokale link](http://192.168.0.108:5000) - **Als bovenstaande link nog niet gemaakt is, zet ik een lokale link aan uren van te voren voor de presentatie**
+* [MANTAX Lokale link](http://145.93.133.2:5000) - **Als bovenstaande link nog niet gemaakt is, zet ik een lokale link aan uren van te voren voor de presentatie**
 
 ## Introductie
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Dit is mijn project waarvoor ik gekozen heb in mijn vrije projectweken. Ik heb er hard aan gewerkt en veel van geleerd. Helaas heb ik niet veel kunnen toepassen vanwege tijdsdruk dus heb ik eerst gefocust om een basis te maken. De rest is te lezen op deze pagina en anders via links. 
+
+### Samenvatting
+
+Het project gaat om een online tool waarbij je facturen simpel kunt genereren. Oorspronkelijke idee ging over een Swift MacOS programma die meerdere soorten documenten kon genereren. Daarna werd het idee versimpeld door een Progressive Web App-shell en achteraf voor de HTML versie gekozen vanwege tijdgebrek.
+
+### Snelle toegang
+
+* [User Experience](https://github.com/YassinSamuels/MANTAX#the-user-experience) - Snel naar mijn UX gedeelte
+* [Strategie & Concept](https://github.com/YassinSamuels/MANTAX#strategie--concept) - Snel naar mijn SCO gedeelte
+* [Self Assessment](https://github.com/YassinSamuels/MANTAX#format-self-assessment-s3-v2) - Snel naar mijn self assessment
 
 ### Vereisten
 
@@ -22,7 +32,7 @@ Internet verbinding.
 
 ### Waarom deze app
 
-Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Ik maak voor mijn broer al een jaar of 4 handmatig facturen voor zijn bedrijf. Al deze jaren heb ik er zelf vsoor gekozen om dit handmatig te doen. De reden hiervoor was dat ik macht had over de design van de factuur, offertes, etc. 
+Applicaties die komen zonder een doel zullen nauwelijks gebruikt worden. Ik maak voor mijn broer al een jaar of 4 handmatig facturen voor zijn bedrijf. Al deze jaren heb ik er zelf voor gekozen om dit handmatig te doen. De reden hiervoor was dat ik macht had over de design van de factuur, offertes, etc. 
 
 Jaarlijks heb ik de stijl van de factuur aangepast aan de trend van die tijd, zo ook in 2018. Ik vond het belangrijk dat een factuur professionaliteit moest uitstralen en een mooi strak design hebben, want dat straalt wat uit. Dat laat klanten prettiger kijken en gemakkelijker onthouden. 
 
@@ -101,6 +111,7 @@ Dit project heeft geen licentie. Ik heb er expres niet voor gekozen om de MIT li
 
 ## Met dank aan
 
+* Udemy - Premium videotutorials over Swift van A tot Z
 * Codepen - Voor kleine bruikbare snippets
 * Youtube - Voor uitleg over PWA
 * W3-Schools - Voor documentatie over HTML5, CSS3 en JS

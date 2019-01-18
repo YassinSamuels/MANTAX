@@ -1,0 +1,639 @@
+[
+ {
+   "ID": 0,
+   "perioden": "2010 06",
+   "uitstaandDebiteurensaldo": 13945,
+   "imageLink": "images/blackMinus.png",
+   "altText": "Startpunt"
+ },
+ {
+   "ID": 1,
+   "perioden": "2010 07",
+   "uitstaandDebiteurensaldo": 14100,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 2,
+   "perioden": "2010 08",
+   "uitstaandDebiteurensaldo": 14284,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 3,
+   "perioden": "2010 09",
+   "uitstaandDebiteurensaldo": 14253,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 4,
+   "perioden": "2010 10",
+   "uitstaandDebiteurensaldo": 14158,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 5,
+   "perioden": "2010 11",
+   "uitstaandDebiteurensaldo": 14159,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 6,
+   "perioden": "2010 12",
+   "uitstaandDebiteurensaldo": 14230,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 7,
+   "perioden": "2011 01",
+   "uitstaandDebiteurensaldo": 14174,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 8,
+   "perioden": "2011 02",
+   "uitstaandDebiteurensaldo": 13788,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 9,
+   "perioden": "2011 03",
+   "uitstaandDebiteurensaldo": 13770,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 10,
+   "perioden": "2011 04",
+   "uitstaandDebiteurensaldo": 13721,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 11,
+   "perioden": "2011 05",
+   "uitstaandDebiteurensaldo": 13332,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 12,
+   "perioden": "2011 06",
+   "uitstaandDebiteurensaldo": 13399,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 13,
+   "perioden": "2011 07",
+   "uitstaandDebiteurensaldo": 13396,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 14,
+   "perioden": "2011 08",
+   "uitstaandDebiteurensaldo": 13599,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 15,
+   "perioden": "2011 09",
+   "uitstaandDebiteurensaldo": 13687,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 16,
+   "perioden": "2011 10",
+   "uitstaandDebiteurensaldo": 13672,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 17,
+   "perioden": "2011 11",
+   "uitstaandDebiteurensaldo": 13552,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 18,
+   "perioden": "2011 12",
+   "uitstaandDebiteurensaldo": 13678,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 19,
+   "perioden": "2012 01",
+   "uitstaandDebiteurensaldo": 13394,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 20,
+   "perioden": "2012 02",
+   "uitstaandDebiteurensaldo": 13438,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 21,
+   "perioden": "2012 03",
+   "uitstaandDebiteurensaldo": 13235,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 22,
+   "perioden": "2012 04",
+   "uitstaandDebiteurensaldo": 13224,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 23,
+   "perioden": "2012 05",
+   "uitstaandDebiteurensaldo": 12801,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 24,
+   "perioden": "2012 06",
+   "uitstaandDebiteurensaldo": 13005,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 25,
+   "perioden": "2012 07",
+   "uitstaandDebiteurensaldo": 13167,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 26,
+   "perioden": "2012 08",
+   "uitstaandDebiteurensaldo": 13341,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 27,
+   "perioden": "2012 09",
+   "uitstaandDebiteurensaldo": 13319,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 28,
+   "perioden": "2012 10",
+   "uitstaandDebiteurensaldo": 13276,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 29,
+   "perioden": "2012 11",
+   "uitstaandDebiteurensaldo": 13199,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 30,
+   "perioden": "2012 12",
+   "uitstaandDebiteurensaldo": 13237,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 31,
+   "perioden": "2013 01",
+   "uitstaandDebiteurensaldo": 13083,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 32,
+   "perioden": "2013 02",
+   "uitstaandDebiteurensaldo": 12959,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 33,
+   "perioden": "2013 03",
+   "uitstaandDebiteurensaldo": 12952,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 34,
+   "perioden": "2013 04",
+   "uitstaandDebiteurensaldo": 13171,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 35,
+   "perioden": "2013 05",
+   "uitstaandDebiteurensaldo": 12623,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 36,
+   "perioden": "2013 06",
+   "uitstaandDebiteurensaldo": 12594,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 37,
+   "perioden": "2013 07",
+   "uitstaandDebiteurensaldo": 12744,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 38,
+   "perioden": "2013 08",
+   "uitstaandDebiteurensaldo": 12778,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 39,
+   "perioden": "2013 09",
+   "uitstaandDebiteurensaldo": 12788,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 40,
+   "perioden": "2013 10",
+   "uitstaandDebiteurensaldo": 12767,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 41,
+   "perioden": "2013 11",
+   "uitstaandDebiteurensaldo": 13005,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 42,
+   "perioden": "2013 12",
+   "uitstaandDebiteurensaldo": 13012,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 43,
+   "perioden": "2014 01",
+   "uitstaandDebiteurensaldo": 12720,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 44,
+   "perioden": "2014 02",
+   "uitstaandDebiteurensaldo": 12596,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 45,
+   "perioden": "2014 03",
+   "uitstaandDebiteurensaldo": 12603,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 46,
+   "perioden": "2014 04",
+   "uitstaandDebiteurensaldo": 12527,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 47,
+   "perioden": "2014 05",
+   "uitstaandDebiteurensaldo": 12144,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 48,
+   "perioden": "2014 06",
+   "uitstaandDebiteurensaldo": 11991,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 49,
+   "perioden": "2014 07",
+   "uitstaandDebiteurensaldo": 12078,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 50,
+   "perioden": "2014 08",
+   "uitstaandDebiteurensaldo": 11958,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 51,
+   "perioden": "2014 09",
+   "uitstaandDebiteurensaldo": 12043,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 52,
+   "perioden": "2014 10",
+   "uitstaandDebiteurensaldo": 12018,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 53,
+   "perioden": "2014 11",
+   "uitstaandDebiteurensaldo": 11734,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 54,
+   "perioden": "2014 12",
+   "uitstaandDebiteurensaldo": 12532,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 55,
+   "perioden": "2015 01",
+   "uitstaandDebiteurensaldo": 12354,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 56,
+   "perioden": "2015 02",
+   "uitstaandDebiteurensaldo": 12180,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 57,
+   "perioden": "2015 03",
+   "uitstaandDebiteurensaldo": 12338,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 58,
+   "perioden": "2015 04",
+   "uitstaandDebiteurensaldo": 12062,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 59,
+   "perioden": "2015 05",
+   "uitstaandDebiteurensaldo": 11733,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 60,
+   "perioden": "2015 06",
+   "uitstaandDebiteurensaldo": 11872,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 61,
+   "perioden": "2015 07",
+   "uitstaandDebiteurensaldo": 11794,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 62,
+   "perioden": "2015 08",
+   "uitstaandDebiteurensaldo": 12164,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 63,
+   "perioden": "2015 09",
+   "uitstaandDebiteurensaldo": 11746,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 64,
+   "perioden": "2015 10",
+   "uitstaandDebiteurensaldo": 11732,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 65,
+   "perioden": "2015 11",
+   "uitstaandDebiteurensaldo": 11736,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 66,
+   "perioden": "2015 12",
+   "uitstaandDebiteurensaldo": 11179,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 67,
+   "perioden": "2016 01",
+   "uitstaandDebiteurensaldo": 11068,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 68,
+   "perioden": "2016 02",
+   "uitstaandDebiteurensaldo": 11037,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 69,
+   "perioden": "2016 03",
+   "uitstaandDebiteurensaldo": 10915,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 70,
+   "perioden": "2016 04",
+   "uitstaandDebiteurensaldo": 10881,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 71,
+   "perioden": "2016 05",
+   "uitstaandDebiteurensaldo": 10640,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 72,
+   "perioden": "2016 06",
+   "uitstaandDebiteurensaldo": 10547,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 73,
+   "perioden": "2016 07",
+   "uitstaandDebiteurensaldo": 10546,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 74,
+   "perioden": "2016 08",
+   "uitstaandDebiteurensaldo": 10539,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 75,
+   "perioden": "2016 09",
+   "uitstaandDebiteurensaldo": 9946,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 76,
+   "perioden": "2016 10",
+   "uitstaandDebiteurensaldo": 9956,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 77,
+   "perioden": "2016 11",
+   "uitstaandDebiteurensaldo": 9833,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 78,
+   "perioden": "2016 12",
+   "uitstaandDebiteurensaldo": 9613,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 79,
+   "perioden": "2017 01",
+   "uitstaandDebiteurensaldo": 9453,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 80,
+   "perioden": "2017 02",
+   "uitstaandDebiteurensaldo": 9363,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 81,
+   "perioden": "2017 03",
+   "uitstaandDebiteurensaldo": 9302,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 82,
+   "perioden": "2017 04",
+   "uitstaandDebiteurensaldo": 9279,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 83,
+   "perioden": "2017 05",
+   "uitstaandDebiteurensaldo": 8930,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 84,
+   "perioden": "2017 06",
+   "uitstaandDebiteurensaldo": 8892,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 85,
+   "perioden": "2017 07",
+   "uitstaandDebiteurensaldo": 8974,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ },
+ {
+   "ID": 86,
+   "perioden": "2017 08",
+   "uitstaandDebiteurensaldo": 8956,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 87,
+   "perioden": "2017 09",
+   "uitstaandDebiteurensaldo": 8871,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 88,
+   "perioden": "2017 10",
+   "uitstaandDebiteurensaldo": 8837,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 89,
+   "perioden": "2017 11",
+   "uitstaandDebiteurensaldo": 8789,
+   "imageLink": "images/greenArrow.png",
+   "altText": "Positief"
+ },
+ {
+   "ID": 90,
+   "perioden": "2017 12",
+   "uitstaandDebiteurensaldo": 9025,
+   "imageLink": "images/redArrow.png",
+   "altText": "Negatief"
+ }
+]

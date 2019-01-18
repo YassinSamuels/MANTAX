@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a9cfe269-94f5-475e-ab22-f8fda74e671f" name="FHICT" url="http://hera.fhict.nl">
+        <fileTransfer host="hera.fhict.nl" port="21" rootFolder="/domains/i360246.hera.fhict.nl/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

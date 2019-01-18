@@ -83,9 +83,9 @@ Het zou dom geweest zijn om willekeurige testen uit te werken die geen toegevoeg
 * [Trend analyse](supportingfiles/documenten/ux/Trendanalysis.pdf) - Design trends vergelijkingen
 * [Survey onderzoek](supportingfiles/documenten/ux/Surveyonderzoek.pdf) - Resultaten van mijn enquete onderzoek dat ging over een factuur maken in Mantax
 * [Mantax Identity Guide](supportingfiles/documenten/MantaxIdentityGuide.pdf) - Hier zit een klein stukje storytelling in verwerkt
-* [Storytelling](supportingfiles/documenten/MantaxIdentityGuide.pdf) - Alle concepten en keuzes zijn hierin verwerkt over mijn project Mantax
-* [Storytelling](supportingfiles/reclame/MantaxReclame1.mp4) - Alle concepten en keuzes zijn hierin verwerkt over mijn project Mantax
-* [Storytelling](supportingfiles/reclame/MantaxReclame2.mp4) - Alle concepten en keuzes zijn hierin verwerkt over mijn project Mantax
+* [Storytelling](supportingfiles/documenten/ux/Storytelling.pdf) - Alle concepten en keuzes zijn hierin verwerkt over mijn project Mantax
+* [Mantax reclame - Call to Action](https://youtu.be/r7Hry8mhJDY) - Reclame spotje om de gebruiker te laten realiseren dat het beter kan
+* [Mantax reclame - Out Now](https://youtu.be/7ybt7PWVq8M) - Reclame spotje om de gebruiker te laten weten dat het te downloaden is
 
 ### Strategie & Concept
 
@@ -93,6 +93,8 @@ Design staat erg hoog aan mijn prioriteitenlijst. Ik heb van mijzelf gemerkt dat
 De motivatie ervan stort ik vervolgens in mijn documentatie en zo kan ik uren lang achter elkaar doorwerken met een goed gevoel. Dit zal dan ook terug te zien zijn, hopelijk, in mijn documentatie van SCO.
 
 * [Mantax Identity Guide](supportingfiles/documenten/MantaxIdentityGuide.pdf) - Alle concepten en keuzes zijn hierin verwerkt over mijn project Mantax
+* [Mantax reclame - Call to Action](https://youtu.be/r7Hry8mhJDY) - Reclame spotje om de gebruiker te laten realiseren dat het beter kan
+* [Mantax reclame - Out Now](https://youtu.be/7ybt7PWVq8M) - Reclame spotje om de gebruiker te laten weten dat het te downloaden is
 
 ### Design & Development
 
@@ -101,10 +103,13 @@ Ik heb flink wat tijd in zitten in het programmeer gedeelte. Niet alleen door he
 * [Progressive Web App](supportingfiles/documenten/ded/ProgressiveWebApp.pdf) - Beschrijvingen van hoe ik het verder kon aanpakken als er meer tijd was
 * [Audiovisueel ontwerp](supportingfiles/documenten/MantaxIdentityGuide.pdf) - Mantax Brand Identity Guide
 * [Hardware & Data](supportingfiles/documenten/ded/Hardware-data.pdf) - Beschrijvingen over hoe hardware en/of data functies toegepast kunnen worden
+* [Mantax reclame - Call to Action](https://youtu.be/r7Hry8mhJDY) - Reclame spotje om de gebruiker te laten realiseren dat het beter kan
+* [Mantax reclame - Out Now](https://youtu.be/7ybt7PWVq8M) - Reclame spotje om de gebruiker te laten weten dat het te downloaden is
 
-### Format Self Assessment S3 v2
+### Format Self Assessment S3
 
-* [Self assesment document](supportingfiles/documenten/FormatselfassessmentS3.pdf) - Zelf ingevulde assessment document format
+* [Self Assessment v1 Interactive Ellie](supportingfiles/documenten/SelfassessmentEllie.pdf) - Assessment document over de groepsproject weken
+* [Self Assesment v2 Vrije Project weken](supportingfiles/documenten/FormatselfassessmentS3.pdf) - Assessment document over de vrije project weken
 
 ## Gemaakt met
 

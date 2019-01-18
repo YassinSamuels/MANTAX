@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Visualisatie van DNB schulden</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!--<script>
+        function loadJSON(callback) {
+
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', 'DNB.json', true); // Replace 'my_data' with the path to your file
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                    callback(xobj.responseText);
+                }
+            };
+            xobj.send(null);
+        }
+
+        function init() {
+            loadJSON(function(response) {
+                // Parse JSON string into object
+                var actual_JSON = JSON.parse(response);
+            });
+        }
+    </script>-->
+
+    <script>
+        $(document).ready(function() {
+
+            $("#getData").on("click", function() {
+                $.getJSON("DNB.json", function(json) {
+                    //$(".data").html(JSON.stringify(json));
+
+                    var htm = "";
+                    json.forEach(function(val) {
+                        console.log(val.uitstaandDebiteurensaldo);
+                        htm += "<div class = 'cat'>";
+                        htm += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'width='2%' height='2%'><br>";
+                        htm += "<p>" + val.perioden + " </p> <p>" + val.uitstaandDebiteurensaldo + "</p>";
+                        htm += "</div><br>";
+
+                    });
+                    $(".data").html(htm);
+
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h2>Uitstaand debiteurensaldo van De Nederlandse Bank</h2>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-xs-12 well data">
+                <p>
+                    Aan het begin van de tweede helft in 2010 is er een database bijgehouden om de roodstanden van DNB aan te tonen per maand tot aan december 2017.
+                    We zien een forse daling ten opzichte van 7 jaar geleden en in 2016 zijn de schulden zeer sterk gedaalt!
+                    <br>
+                    President Klaas Knot van De Nederlandsche Bank zal daar zeker blij mee zijn, maar dat neemt een andere grote zorg van de financiële toezichthouder niet weg:
+                    <br>
+                    een groot deel van de hypotheekschuld van Nederlandse huishoudens bestaat uit zogenoemde aflossingsvrije hypotheken.
+                    En daar dreigt een grote probleem te ontstaan.
+                </p>
+                <img src="images/afb.png" width="50%" height="50%">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <button id="getData" class="btn btn-primary">
+                    Data tonen
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

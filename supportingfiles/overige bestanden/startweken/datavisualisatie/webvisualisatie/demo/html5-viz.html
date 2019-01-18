@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Visualisatie van JSON data met standaard HTML5 en CSS3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+    <style>
+        .bar {
+            background-color: gray;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // wait until the entire document is loaded
+        $(document).ready(function () {
+
+            // use an AJAX call to load the static JSON data from the server
+            $.ajax({
+                        url: "mobile.json",
+                        dataType: "json",
+                        success: appendData // calls a function to handle the JSON data
+                    }
+            );
+
+            /**
+             * Appends new mobile OS data to the document.
+             *
+             * @param data  the JSON mobile usage data
+             */
+            function appendData(data) {
+                // in the property 'os' there is the actual array with the usage data per operating system (OS)
+                data.os.forEach(function (os) {
+                    // append data per OS (could be done more elegantly if we can expect data from more years)
+                    $('#content').append('<h2>' + os.OS + '</h2>')
+                            .append('<h3>2011</h3><div class="bar" style="width:'+os[2011]+';">' + os[2011] + '</div>')
+                            .append('<h3>2012</h3><div class="bar" style="width:'+os[2012]+';">' + os[2012] + '</div>')
+                            .append('<h3>2015</h3><div class="bar" style="width:'+os[2015]+';">' + os[2015] + '</div>');
+
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+<div id="content">
+</div>
+</body>
+</html>

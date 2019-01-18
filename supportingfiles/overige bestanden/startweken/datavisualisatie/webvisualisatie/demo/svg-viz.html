@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Visualisatie van JSON data met SVGs</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+    <style>
+        .phone {
+            position: absolute;
+            width: 100px;
+        }
+
+        .phone text {
+            font-family: sans-serif;
+            font-weight: bold;
+            fill: black;
+        }
+
+        .year2011 {
+            top: 10%;
+        }
+
+        .year2012 {
+            top: 30%;
+        }
+
+        .year2015 {
+            top: 70%;
+        }
+
+        .iOS path {
+            fill: blue;
+            fill-opacity: 0.3;
+        }
+
+        .Win path {
+            fill: green;
+            fill-opacity: 0.3;
+        }
+
+        .And path {
+            fill: orange;
+            fill-opacity: 0.3;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        // wait until the entire document is loaded
+        $(document).ready(function () {
+
+            // use an AJAX call to load the static JSON data from the server
+            $.ajax({
+                        url: "mobile.json",
+                        dataType: "json",
+                        success: appendData // calls a function to handle the JSON data
+                    }
+            );
+
+            /**
+             * Appends new mobile OS data to the document.
+             *
+             * @param data  the JSON mobile usage data
+             */
+            function appendData(data) {
+                // this is a simple SVG drawing of a phone that will be used as a template for all the data points
+                var phoneSvg = '<svg version="1.1" viewBox="0 0 141.732 141.732" xml:space="preserve"><g><path d="M108.225,118.226h-66.22V10.889h66.22V118.226z M69.962,129.125c0-2.951,2.37-5.345,5.294-5.345   c2.925,0,5.294,2.394,5.294,5.345c0,2.95-2.369,5.348-5.294,5.348C72.332,134.469,69.962,132.075,69.962,129.125 M112.668,133.976   h0.009V5.341V5.34V5.314h-0.002C112.661,2.377,110.278,0,107.336,0c-0.021,0-0.038,0.002-0.057,0.002V0H95.282h-35H42.894   c-2.938,0.002-5.319,2.379-5.335,5.314h-0.001v128.661h0.008c-0.002,0.056-0.008,0.111-0.008,0.169   c0,2.878,2.419,5.212,5.404,5.212c0.044,0,0.087-0.006,0.131-0.007v0.007h64.316l0,0c2.904,0,5.267-2.333,5.267-5.212   C112.677,134.087,112.67,134.031,112.668,133.976"/></g><text x="50" y="40"></text></svg>',
+                        newElement;
+
+                // in the property 'os' there is the actual array with the usage data per operating system (OS)
+                data.os.forEach(function (os) {
+
+                    // function adds a new SVG to the document for each data point
+                    function addSvgWithData(osName, year) {
+                        newElement = $.parseHTML(phoneSvg);
+                        newElement[0].classList.add('phone');
+                        newElement[0].classList.add(osName);
+                        newElement[0].classList.add('year' + year);
+                        newElement[0].style.left = os[year];
+                        newElement[0].querySelector('text').innerHTML = os[year];
+                        $('#content').append(newElement);
+                    }
+
+                    // add the three data points per operating system
+                    addSvgWithData(os.OS.substr(0,3), 2011);
+                    addSvgWithData(os.OS.substr(0,3), 2012);
+                    addSvgWithData(os.OS.substr(0,3), 2015);
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+<div id="content">
+</div>
+</body>
+</html>
